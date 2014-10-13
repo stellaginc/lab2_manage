@@ -1,0 +1,68 @@
+git config --global user.name "stellaginc"
+git config --global user.email 
+
+"stellaginc@163.com"
+useful:
+git reflog记录每一次指令，和commit id
+git remote列出已存在远程库
+r0:
+git status 仓库
+r1：
+cd D:/test
+mkdir learn 新建文件夹
+cd learn
+pwd查看当前目录
+git init
+git add in.java
+r2：
+git commit -m "add 3"
+r3：
+git status 哪些文件修改
+git diff in.java修改内容
+r4:
+git add in.java
+git commit -m "changed"
+r5:
+同r4
+r6:
+git reset --hard HEAD^
+r7:
+git log提交记录
+r8：
+git clone git@github.com:stellaginc/lab4-
+
+learn.git
+r9:
+git branch显示当前全部分支
+git checkout -b B1 origin/B1
+git checkout -b B2 origin/B2
+git checkout -b B3 origin/B3
+r10：
+git checkout B2
+git branch
+git checkout -b C4
+r11:
+git add file.txt
+git commit -m "branch test"
+r12:
+git checkout B3
+git add file.txt
+git commit -m "file changed twice"
+git push origin B3
+git push -u origin C4
+git branch -r查看远程分支
+r13:
+git checkout B3
+git merge C4
+git status
+git add in.jsp
+git commit -m "conflict"
+git push origin B3
+
+git push -u origin 1120310114
+git checkout -b B1 origin/B1
+r18:
+git remote add origin_learn1 
+
+git@github.com:stellaginc/learn.git
+git push -u origin_learn1 master
