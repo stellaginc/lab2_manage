@@ -39,10 +39,7 @@ public class in {
 			  
 	 try{
 		   conn=DriverManager.getConnection(url, username, password);
-		   if (conn != null)              	  
-		       System.out.println("鏁版嵁搴撹繛鎺ユ垚鍔?");  
-		   else  
-		       System.out.println("鏁版嵁搴撹繛鎺ュけ璐?"); 
+		   
 	      }catch(SQLException e){
 			  e.printStackTrace();
 		  }
