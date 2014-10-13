@@ -16,14 +16,7 @@ public class hello extends ActionSupport{
 		}
 	}
 	
-	/*public void validate(){
-		if(userName==null||userName.equals("")){
-			this.addFieldError("userName","username blank");
-		}
-		if(password==null||password.equals("")){
-			this.addFieldError("password","password blank");
-		}
-	}*/
+	
 	public String getUserName(){
 		return userName;
 	}
