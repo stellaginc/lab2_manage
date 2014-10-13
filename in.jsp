@@ -43,10 +43,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
                      <td><b>shuhao</b></td> 
                      <td><b>浣滆€匢D</b></td> 
-  					<td><b>涔︾睄鍚嶇О</b></td> 
+  					<td><b>涔︾睄鍚嶇�?/b></td> 
   					<td><b>鍑虹増绀?/b></td>
-  					<td><b>鍑虹増鏃堕棿</b></td>
-  					<td><b>浠锋牸</b></td>
+  					<td><b>pubdate</b></td>
+  					<td><b>浠锋�?/b></td>
                                      
               </tr>                  
   
